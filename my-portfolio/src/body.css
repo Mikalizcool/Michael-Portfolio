@@ -18,3 +18,11 @@
     font-weight: bold;
     display: inline;
 }
+.logo {
+    margin-top: 40px;
+    width: 40px;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+}
