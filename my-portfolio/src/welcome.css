@@ -1,0 +1,56 @@
+.welcome {
+    display: flex;
+    font-size: 60px;
+    margin: 0;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    top: 300px;
+}
+.header img {
+    width: 20vw;
+    min-width: 300px;
+    margin-left: 40px;
+}
+.starter {
+    display: flex;
+    flex-direction: row;
+}
+.welcome-message {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.bold-message {
+    font-weight: bold;
+    position: relative;
+    top: 73px;
+    left: 15px;
+    margin: 0;
+    color: #5399a5;
+}
+.welcome-description {
+    font-size: 30px;
+}
+.bold-description {
+    font-weight: bold;
+    display: inline;
+    color: #5399a5;
+}
+.vertical-line {
+    border: none;
+    border-left: 2px solid grey; /* Change the color and thickness */
+    height: 500px; /* Adjust the height as needed */
+    width: 0;
+}
+.ender {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 250px;
+}
