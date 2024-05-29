@@ -16,7 +16,7 @@ const Welcome = () => {
                     </div>
                     <img src= {welcomeImage}></img>
                 </div>
-                <div className="ender">
+                <div className="scroll">
                     <p>SCROLL</p>
                     <hr className="vertical-line"></hr>
                 </div>

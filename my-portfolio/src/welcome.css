@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    top: 300px;
+    top: 250px;
 }
 .header img {
     width: 20vw;
@@ -44,11 +44,11 @@
 }
 .vertical-line {
     border: none;
-    border-left: 2px solid grey; /* Change the color and thickness */
-    height: 500px; /* Adjust the height as needed */
+    border-left: 2px dashed grey; /* Change the color and thickness */
+    height: 350px; /* Adjust the height as needed */
     width: 0;
 }
-.ender {
+.scroll {
     display: flex;
     flex-direction: column;
     position: relative;

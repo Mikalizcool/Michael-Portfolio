@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Welcome from './Welcome'
 import Body from './Body'
+import Projects from './Projects'
 
 function App() {
 
@@ -12,7 +13,10 @@ function App() {
       <div className="body">
         <Welcome />
       </div>
+      <div className="center">
       <Body />
+      <Projects />
+      </div>
     </>
   )
 }
