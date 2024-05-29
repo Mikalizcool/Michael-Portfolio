@@ -1,4 +1,4 @@
-.projects-container {
+.project-container {
     display: flex;
     width: 1000px;
     text-align: left;
@@ -17,4 +17,7 @@
     color: #5399a5;
     font-weight: bold;
     display: inline;
+}
+.projects-container {
+    
 }
