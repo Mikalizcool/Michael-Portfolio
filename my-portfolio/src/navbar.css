@@ -10,6 +10,10 @@
     display: none;
     position: absolute;
 }
-.menu-button {
-    
+.navbar-button {
+    margin: 50px;
+    border: none;
+    background-color: rgb(252, 252, 252);
+    font-weight: 500;
+    font-size: 17px;
 }

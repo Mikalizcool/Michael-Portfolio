@@ -12,8 +12,8 @@ const Navbar = () => {
     return (
         <>
             <nav className="navbar">
-                <button className="menu-button" onClick={handleClick} type="button">MENU</button>
-                <a className="navbar-link" href="hireme">Hire Me</a>
+                <button className="navbar-button" onClick={handleClick} type="button">MENU</button>
+                <button className="navbar-button" type="button">HIRE ME</button>
             </nav>
             <div id="dropdown-menu" className="dropdown-menu">
                 <ul>
