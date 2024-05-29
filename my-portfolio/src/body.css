@@ -19,10 +19,18 @@
     display: inline;
 }
 .logo {
-    margin-top: 40px;
     width: 40px;
+    padding-left: 50px;
 }
 .links {
     display: flex;
-    justify-content: space-between;
+    margin-top: 10px;
+}
+.resume-button {
+    border: none;
+    background-color:#5399a5;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
 }
