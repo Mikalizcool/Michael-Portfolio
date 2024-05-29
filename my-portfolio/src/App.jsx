@@ -5,12 +5,14 @@ import './App.css'
 import Welcome from './Welcome'
 import Body from './Body'
 import Projects from './Projects'
+import Navbar from './Navbar'
 
 function App() {
 
   return (
     <>
       <div className="body">
+        <Navbar />
         <Welcome />
       </div>
       <div className="center">
