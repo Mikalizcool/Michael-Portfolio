@@ -9,6 +9,9 @@
 .dropdown-menu {
     display: none;
     position: absolute;
+    margin-left: 10px;
+    color: white;
+    top: 100px;
 }
 .navbar-button {
     margin: 50px;
@@ -16,4 +19,21 @@
     background-color: rgb(252, 252, 252);
     font-weight: 500;
     font-size: 17px;
+    cursor: pointer;
+}
+.list {
+    list-style-type: none;
+    padding-left: 0; 
+    padding-right: 100px;
+    margin-left: 50px;
+    background-color: teal;
+    padding-bottom: 300px;
+    border-radius: 10px;
+}
+.list li {
+    padding-bottom: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
 }
