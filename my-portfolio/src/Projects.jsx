@@ -2,6 +2,9 @@ import './index.css'
 import './projects.css'
 import game from './assets/game.gif'
 import matchingGame from './assets/matching-game.jpg'
+import companionApp from './assets/companion-app.jpg'
+import cvapp from './assets/cv-application.png'
+import player from './assets/player_stance.gif'
 const Projects = () => {
     const handleClick = () => {
         window.location.href = "https://memory-game-two-pied.vercel.app/";
@@ -35,7 +38,7 @@ const Projects = () => {
                     </div>
                     <hr className="horizontal-line"></hr>
                     <div className="project">
-                    <img onClick= {handleClick} src={matchingGame}></img>
+                    <img onClick= {handleClick} src={companionApp}></img>
                     <div className="space"></div>
                         <div className="project-description">
                             <h1>Companion App</h1>
@@ -51,11 +54,11 @@ const Projects = () => {
                             <p>This project uses user input and state to update a form.</p>
                         </div>
                         <div className="space"></div>
-                        <img onClick= {handleClick} src={matchingGame}></img>
+                        <img onClick= {handleClick} src={cvapp}></img>
                     </div>
                     <hr className="horizontal-line"></hr>
                     <div className="project">
-                    <img onClick= {handleClick} src={matchingGame}></img>
+                    <img className="reverse" onClick= {handleClick} src={player}></img>
                     <div className="space"></div>
                         <div className="project-description">
                             <h1>Defeat the hostile A.I!</h1>
