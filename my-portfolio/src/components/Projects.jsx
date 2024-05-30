@@ -10,6 +10,15 @@ const Projects = () => {
         if (name=="memorygame"){
             window.open("https://memory-game-two-pied.vercel.app/");
         }
+        else if (name=="companionapp"){
+            window.open("https://mass-effect-companion-app.vercel.app/");
+        }
+        else if (name=="cvapplication"){
+            window.open("https://cv-application-ebon.vercel.app/");
+        }
+        else if (name=="rockpaperscissors"){
+            window.open("https://mikalizcool.github.io/Rock-Paper-Scissors/");
+        }
     }
     return (
         <>
@@ -47,6 +56,7 @@ const Projects = () => {
                             <h1>Companion App</h1>
                             <p>A companion app for the Mass Effect game series made using React.</p>
                             <p>This project focuses on providing information on the Mass Effect game series in a way that is interesting for fans and newcomers alike.</p>
+                            <button className="button" onClick={() => (handleClick("companionapp"))}>Try it out</button>
                         </div>
                     </div>
                     <hr className="vertical-line-projects"></hr>
@@ -55,6 +65,7 @@ const Projects = () => {
                             <h1>CV-Application</h1>
                             <p>A job application made using React.</p>
                             <p>This project uses user input and state to update a form.</p>
+                            <button className="button" onClick={() => (handleClick("cvapplication"))}>Try it out</button>
                         </div>
                         <div className="space"></div>
                         <img onClick= {handleClick} src={cvapp}></img>
@@ -67,6 +78,7 @@ const Projects = () => {
                             <h1>Defeat the hostile A.I!</h1>
                             <p>Can you defeat this A.I in a game of rock paper scissors?</p>
                             <p>This project involves making a simple game more interesting with animations.</p>
+                            <button className="button" onClick={() => (handleClick("rockpaperscissors"))}>Try it out</button>
                         </div>
                     </div>
                 </div>
