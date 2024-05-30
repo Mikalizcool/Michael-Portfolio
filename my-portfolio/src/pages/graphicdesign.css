@@ -66,3 +66,13 @@
     justify-content: flex-start;
     flex-direction: column;
 }
+.work-button {
+    border: none;
+    background-color:#5399a5;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 110px;
+}

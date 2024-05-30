@@ -10,6 +10,17 @@ import technical from '../assets/technical-art.png'
 import postera from '../assets/poster-a.png'
 import bkcover from '../assets/book_cover.png'
 const Graphicdesign = () => {
+    const handleClick = (name) => {
+        if (name=="report"){
+            window.open("https://www.dhs.gov/sites/default/files/2024-03/23_0508_cio_2022-annual-report-review.pdf");
+        }
+        else if (name=="review"){
+            window.open("https://www.dhs.gov/sites/default/files/2024-03/24_0320_cio_2022-year-in-review.pdf");
+        }
+        else if (name=="bkcover"){
+            window.open("https://www.amazon.com/Soul-Manifest-Survival-Dystopian-Adventure-ebook/dp/B0B3HM8VT9")
+        }
+    }
     return (
         <>
             <div className="body">
@@ -71,6 +82,7 @@ const Graphicdesign = () => {
                                 <p className="work-description"> The annual report for DHS HSIN. Click to view full version hosted on the DHS site.
                                 </p>
                                 <p>Created using Adobe Indesign, Adobe Photoshop and Adobe Illustrator.</p>
+                                <button className="work-button" onClick={() => (handleClick("report"))}>Check it out</button>
                             </div>
                         </div>
 
@@ -80,6 +92,8 @@ const Graphicdesign = () => {
                                 <p className="work-description"> The Year in Review for DHS HSIN. Click to view full version hosted on the DHS site.
                                 </p>
                                 <p>Created using Adobe Indesign and Adobe Illustrator.</p>
+                                <button className="work-button" onClick={() => (handleClick("review"))}>Check it out</button>
+
                             </div>
                             <div className="work-right">
                                 <img src={review}></img>
@@ -119,6 +133,8 @@ const Graphicdesign = () => {
                                 <p className="work-description"> The cover for the book I wrote. This complicated project helped me learn project management skills.
                                 </p>
                                 <p>Created using Clip Studio Paint.</p>
+                                <button className="work-button" onClick={() => (handleClick("bkcover"))}>Check it out</button>
+
                             </div>
                         </div>
                     </div>
