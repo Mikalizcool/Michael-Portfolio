@@ -44,8 +44,8 @@
 }
 .vertical-line {
     border: none;
-    border-left: 2px dashed grey; /* Change the color and thickness */
-    height: 450px; /* Adjust the height as needed */
+    border-left: 2px dashed grey;
+    height: 500px;
     width: 0;
 }
 .scroll {

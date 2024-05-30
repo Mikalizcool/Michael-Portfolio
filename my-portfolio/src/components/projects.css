@@ -38,7 +38,7 @@
 .space {
     padding: 25px;
 }
-.vertical-line {
+.vertical-line-projects {
     border: none;
     border-left: 2px dashed grey; /* Change the color and thickness */
     height: 150px; /* Adjust the height as needed */
