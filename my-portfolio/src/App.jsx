@@ -1,24 +1,23 @@
+import React from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Welcome from './Welcome'
-import Body from './Body'
-import Projects from './Projects'
-import Navbar from './Navbar'
-
+import Welcome from './components/Welcome'
+import Body from './components/Body'
+import Projects from './components/Projects'
+import Navbar from './components/Navbar'
+import Graphicdesign from './pages/Graphicdesign.jsx'
+import Homepage from './pages/Homepage.jsx'
 function App() {
 
   return (
     <>
-      <div className="body">
-        <Navbar />
-        <Welcome />
-      </div>
-      <div className="center">
-      <Body />
-      <Projects />
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route index element = {<Homepage />}></Route>
+          <Route path = "graphicdesign" element= {<Graphicdesign />}></Route>
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }

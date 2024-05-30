@@ -1,10 +1,10 @@
-import './index.css'
+import '../index.css'
 import './projects.css'
-import game from './assets/game.gif'
-import matchingGame from './assets/matching-game.jpg'
-import companionApp from './assets/companion-app.jpg'
-import cvapp from './assets/cv-application.png'
-import player from './assets/player_stance.gif'
+import game from '../assets/game.gif'
+import matchingGame from '../assets/matching-game.jpg'
+import companionApp from '../assets/companion-app.jpg'
+import cvapp from '../assets/cv-application.png'
+import player from '../assets/player_stance.gif'
 const Projects = () => {
     const handleClick = () => {
         window.location.href = "https://memory-game-two-pied.vercel.app/";

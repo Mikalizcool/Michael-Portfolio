@@ -26,11 +26,20 @@
     display: flex;
     margin-top: 10px;
 }
-.resume-button {
+.button {
     border: none;
     background-color:#5399a5;
     color: white;
     padding: 10px;
     border-radius: 10px;
     font-weight: bold;
+}
+.button-a {
+    border: none;
+    background-color:#5399a5;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 50px;
 }

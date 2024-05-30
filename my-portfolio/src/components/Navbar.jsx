@@ -1,5 +1,6 @@
 import './navbar.css'
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 const Navbar = () => {
     const handleClick = () => {
         let display = document.getElementById("dropdown-menu").style.display;
@@ -26,10 +27,10 @@ const Navbar = () => {
                 <div id="dropdown-menu" className="dropdown-menu">
                     <ul className="list">
                         <li>
-                            <a href="#home">Home</a>
+                            <Link to="/">Homepage</Link>
                         </li>
                         <li>
-                            <a href="#graphic design">Graphic Design</a>
+                            <Link to="graphicdesign">Graphic Design</Link>
                         </li>
                     </ul>
                 </div>

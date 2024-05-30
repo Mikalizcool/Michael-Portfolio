@@ -1,6 +1,6 @@
-import './index.css'
+import '../index.css'
 import './welcome.css'
-import welcomeImage from './assets/welcome.gif'
+import welcomeImage from '../assets/welcome.gif'
 const Welcome = () => {
     return (
         <>
