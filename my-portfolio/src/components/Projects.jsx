@@ -26,7 +26,7 @@ const Projects = () => {
                             <p>This game features the ability to change the player's state dynamically, creating an exciting gameplay experience.</p>
                         </div>
                     </div>
-                    <hr className="horizontal-line"></hr>
+                    <hr className="vertical-line"></hr>
                     <div className="project">
                         <div className="project-description">
                             <h1>Memory Game</h1>
@@ -36,7 +36,7 @@ const Projects = () => {
                         <div className="space"></div>
                         <img onClick= {handleClick} src={matchingGame}></img>
                     </div>
-                    <hr className="horizontal-line"></hr>
+                    <hr className="vertical-line"></hr>
                     <div className="project">
                     <img onClick= {handleClick} src={companionApp}></img>
                     <div className="space"></div>
@@ -46,7 +46,7 @@ const Projects = () => {
                             <p>This project focuses on providing information on the Mass Effect game series in a way that is interesting for fans and newcomers alike.</p>
                         </div>
                     </div>
-                    <hr className="horizontal-line"></hr>
+                    <hr className="vertical-line"></hr>
                     <div className="project">
                         <div className="project-description">
                             <h1>CV-Application</h1>
@@ -56,7 +56,7 @@ const Projects = () => {
                         <div className="space"></div>
                         <img onClick= {handleClick} src={cvapp}></img>
                     </div>
-                    <hr className="horizontal-line"></hr>
+                    <hr className="vertical-line"></hr>
                     <div className="project">
                     <img className="reverse" onClick= {handleClick} src={player}></img>
                     <div className="space"></div>

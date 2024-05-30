@@ -1,0 +1,33 @@
+.graphic-design-title {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.graphic-design-container {
+    background-color: rgb(252, 252, 252);
+    margin: 60px;
+}
+.horizontal-line {
+    width: 10vw;
+    margin-top: 0;
+    height: 1px;
+    border: solid;
+    background-color: #5399a5;
+    border-color: #5399a5;
+    display: inline-block;
+}
+.video {
+    border-radius: 15px;
+}
+.work-left {
+    width: 50%;
+}
+.work-right {
+    width: 50%;
+}
+.graphic-design-work {
+    display: flex;
+}
+.line-container {
+    text-align: left;
+    width: 50%;
+}
