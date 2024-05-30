@@ -17,12 +17,15 @@ const Navbar = () => {
             setMenu("MENU");
         }
     }
+    const handleEmail = () => {
+        window.open("mailto:michael@madamico.me");
+    }
     const [menu, setMenu] = useState("MENU");
     return (
         <>
                 <nav className="navbar">
                     <button className="navbar-button" onClick={handleClick} type="button">{menu}</button>
-                    <button className="navbar-button" type="button">HIRE ME</button>
+                    <button className="navbar-button" onClick={handleEmail} type="button">HIRE ME</button>
                 </nav>
                 <div id="dropdown-menu" className="dropdown-menu">
                     <ul className="list">
