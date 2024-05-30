@@ -32,7 +32,7 @@ const Graphicdesign = () => {
                                 <p>Created using Clip Studio Paint and Adobe Premiere Pro.</p>
                             </div>
                             <div className="work-right">
-                            <video className="video" width="750" height="500" controls >
+                            <video className="video"  controls >
                                 <source src={animation} type="video/mp4"/>
                             </video>
                             </div>

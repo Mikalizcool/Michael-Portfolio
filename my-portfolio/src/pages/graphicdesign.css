@@ -50,6 +50,7 @@
     justify-content: center;
     align-items: left;
     flex-direction: column;
+    padding-right: 100px;
 }
 .work-right {
     width: 50%;
