@@ -6,8 +6,10 @@ import companionApp from '../assets/companion-app.jpg'
 import cvapp from '../assets/cv-application.png'
 import player from '../assets/player_stance.gif'
 const Projects = () => {
-    const handleClick = () => {
-        window.location.href = "https://memory-game-two-pied.vercel.app/";
+    const handleClick = (name) => {
+        if (name=="memorygame"){
+            window.open("https://memory-game-two-pied.vercel.app/");
+        }
     }
     return (
         <>
@@ -32,9 +34,10 @@ const Projects = () => {
                             <h1>Memory Game</h1>
                             <p>A memory game created using React.</p>
                             <p>This project focuses on utilizing state while fetching and using data from an external API.</p>
+                            <button className="button" onClick={() => (handleClick("memorygame"))}>Try it out</button>
                         </div>
                         <div className="space"></div>
-                        <img onClick= {handleClick} src={matchingGame}></img>
+                        <img src={matchingGame}></img>
                     </div>
                     <hr className="vertical-line-projects"></hr>
                     <div className="project">
