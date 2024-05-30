@@ -18,16 +18,50 @@
 .video {
     border-radius: 15px;
 }
-.work-left {
+.work-text {
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
 }
-.work-right {
+.work-content {
     width: 50%;
+    display: flex;
+    justify-content: flex-end;  
 }
 .graphic-design-work {
     display: flex;
+    flex-direction: column;
 }
 .line-container {
     text-align: left;
     width: 50%;
+}
+.work-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.work-left {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+.work-right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+.work-right-no-center {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
