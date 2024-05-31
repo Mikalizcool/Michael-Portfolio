@@ -7,3 +7,10 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media screen and (max-width: 800px) {
+    .body {
+        display: flex;
+        align-items: center;
+    }
+}

@@ -45,3 +45,7 @@
     margin-left: 50px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1000px) {
+    
+}

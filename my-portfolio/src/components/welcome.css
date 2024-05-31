@@ -54,3 +54,9 @@
     position: relative;
     right: 250px;
 }
+
+@media screen and (max-width: 1000px) {
+    .starter {
+        flex-direction: column;
+    }
+}
