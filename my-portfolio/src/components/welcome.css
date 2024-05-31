@@ -82,6 +82,7 @@
     }
     .header img {
         width: 80%;
+        margin-left: 0;
     }
     .welcome-description {
         text-align: center;
