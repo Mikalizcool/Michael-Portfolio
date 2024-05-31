@@ -47,3 +47,21 @@
 .reverse {
     transform: scaleX(-1);
 }
+
+@media screen and (max-width: 1000px) {
+    .project-container {
+        width: 80%;
+    }
+    .heading {
+        width: 80%;
+    }
+    .project {
+        flex-direction: column;
+    }
+    .project-container img {
+        width: 80%;
+    }
+    .vertical-line-projects {
+        display: none;
+    }
+}

@@ -58,5 +58,11 @@
 @media screen and (max-width: 1000px) {
     .starter {
         flex-direction: column;
+        align-items: center;
     }
+    .scroll {
+        right: 0;
+        height: 400px;
+    }
+    
 }
