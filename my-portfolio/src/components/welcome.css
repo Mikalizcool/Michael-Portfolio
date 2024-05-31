@@ -13,9 +13,9 @@
     top: 200px;
 }
 .header img {
-    width: 20vw;
-    min-width: 300px;
+    max-width: 100%;
     margin-left: 40px;
+    height: auto;
 }
 .starter {
     display: flex;
@@ -64,5 +64,30 @@
         right: 0;
         height: 400px;
     }
-    
+    .welcome {
+        font-size: 30px;
+        display: inline;
+        text-align: center;
+    }
+    .bold-message {
+        font-weight: bold;
+        position: relative;
+        top: 0;
+        left: 0;
+        
+        color: #5399a5;
+    }
+    .welcome-message {
+        width: 80%;
+    }
+    .header img {
+        width: 80%;
+    }
+    .welcome-description {
+        text-align: center;
+        font-size: 25px;
+    }
+    .header {
+        top: 100px;
+    }
 }

@@ -51,9 +51,11 @@
 @media screen and (max-width: 1000px) {
     .project-container {
         width: 80%;
+        padding: 10px;
     }
     .heading {
         width: 80%;
+        padding: 10px;
     }
     .project {
         flex-direction: column;
@@ -63,5 +65,8 @@
     }
     .vertical-line-projects {
         display: none;
+    }
+    .project-description {
+        width: 100%;
     }
 }

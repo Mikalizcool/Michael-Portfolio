@@ -29,9 +29,7 @@ const Projects = () => {
                 </div>
                 <div className="projects-container">
                     <div className="project">
-                        <div className="content">
-                            <img src={game}></img>
-                        </div>
+                        <img src={game}></img>
                         <div className="space"></div>
                         <div className="project-description">
                             <h1>2d Beat em' up Game</h1>
