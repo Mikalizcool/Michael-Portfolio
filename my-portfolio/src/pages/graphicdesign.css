@@ -76,3 +76,25 @@
     cursor: pointer;
     width: 110px;
 }
+.design-description {
+    width: 40%;
+}
+
+@media screen and (max-width: 1000px) {
+    .graphic-design-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .work-container {
+        flex-direction: column;
+    }
+    .work-left {
+        width: 100%;
+    }
+    .work-right {
+        width: 100%;
+    }
+    .design-description {
+        width: 60%;
+    }
+}

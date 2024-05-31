@@ -29,10 +29,11 @@ const Graphicdesign = () => {
                     <h1 className="graphic-design-title">My <div className="bold">Graphic Design work.</div></h1>
                     <div className="line-container">
                         <hr className="horizontal-line"></hr>
-                        <p>I work with incredible people to create amazing content and products. From working with the <b className="bold"  >Department of Homeland Security</b> to <b className="bold">Concern Worldwide</b>, I've devoted
-                                many years to making creative and exciting content.
-                        </p>
+                        
                     </div>
+                    <p className="design-description">I work with incredible people to create amazing content and products. From working with the <b className="bold"  >Department of Homeland Security</b> to <b className="bold">Concern Worldwide</b>, I've devoted
+                                many years to making creative and exciting content.
+                    </p>
                     <div className="graphic-design-work">
                         <div className="work-container">
                             <div className="work-left">
