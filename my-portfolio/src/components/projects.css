@@ -64,7 +64,10 @@
         width: 80%;
     }
     .vertical-line-projects {
-        display: none;
+        border: none;
+        border-top: 2px dashed grey; /* Change the color and thickness */
+        width: 100%; /* Set the width to span the container */
+        height: 0;
     }
     .project-description {
         width: 100%;
