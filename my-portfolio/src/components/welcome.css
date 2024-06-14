@@ -46,7 +46,7 @@
 .vertical-line {
     border: none;
     border-left: 2px dashed grey;
-    height: 400px;
+    height: 500px;
     width: 0;
 }
 .scroll {
