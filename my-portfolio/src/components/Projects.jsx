@@ -65,14 +65,14 @@ const Projects = () => {
                     </div>
                     <hr className="vertical-line-projects"></hr>
                     <div className="project">
-                    <img onClick= {handleClick} src={companionApp}></img>
-                    <div className="space"></div>
                         <div className="project-description">
                             <h1>Companion App</h1>
                             <p>A companion app for the Mass Effect game series made using React.</p>
                             <p>This project focuses on providing information on the Mass Effect game series in a way that is interesting for fans and newcomers alike.</p>
                             <button className="button" onClick={() => (handleClick("companionapp"))}>Try it out</button>
                         </div>
+                        <div className="space"></div>
+                        <img onClick= {handleClick} src={companionApp}></img>
                     </div>
                     <hr className="vertical-line-projects"></hr>
                     <div className="project">
