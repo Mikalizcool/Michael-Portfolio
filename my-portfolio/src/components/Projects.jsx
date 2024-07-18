@@ -5,6 +5,7 @@ import matchingGame from '../assets/matching-game.jpg'
 import companionApp from '../assets/companion-app.jpg'
 import cvapp from '../assets/cv-application.png'
 import player from '../assets/player_stance.gif'
+import cartApp from '../assets/shopping-cart.jpg'
 const Projects = () => {
     const handleClick = (name) => {
         if (name=="memorygame"){
@@ -18,6 +19,9 @@ const Projects = () => {
         }
         else if (name=="rockpaperscissors"){
             window.open("https://mikalizcool.github.io/Rock-Paper-Scissors/");
+        }
+        else if (name=="store"){
+            window.open("https://shopping-cart-flame-eight-82.vercel.app/");
         }
     }
     return (
@@ -47,6 +51,17 @@ const Projects = () => {
                         </div>
                         <div className="space"></div>
                         <img src={matchingGame}></img>
+                    </div>
+                    <hr className="vertical-line-projects"></hr>
+                    <div className="project">
+                    <img onClick= {handleClick} src={cartApp}></img>
+                    <div className="space"></div>
+                        <div className="project-description">
+                            <h1>Online Store</h1>
+                            <p>A mock online store with a shopping cart.</p>
+                            <p>This project uses react routers, useState, and useEffect in order to display store items from an external API.</p>
+                            <button className="button" onClick={() => (handleClick("store"))}>Try it out</button>
+                        </div>
                     </div>
                     <hr className="vertical-line-projects"></hr>
                     <div className="project">
