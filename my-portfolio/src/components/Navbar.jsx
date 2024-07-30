@@ -18,7 +18,7 @@ const Navbar = () => {
         }
     }
     const handleEmail = () => {
-        window.open("mailto:michael@madamico.me");
+        window.open("mailto:mdamico115@gmail.com");
     }
     const [menu, setMenu] = useState("MENU");
     return (
