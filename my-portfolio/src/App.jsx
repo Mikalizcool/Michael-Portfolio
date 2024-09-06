@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element = {<Homepage />}></Route>
-          <Route path = "graphicdesign" element= {<Graphicdesign />}></Route>
+          <Route path = "/graphicdesign" element= {<Graphicdesign />}></Route>
         </Routes>
       </BrowserRouter>
     </>
