@@ -36,7 +36,7 @@ const Projects = () => {
                         <img src={game}></img>
                         <div className="space"></div>
                         <div className="project-description">
-                            <h1>2d Beat em' up Game</h1>
+                            <h1>2d Beat 'em up Game</h1>
                             <p>An in progress video game created in Unity using the c# programming language.</p>
                             <p>This game features the ability to change the player's state dynamically, creating an exciting gameplay experience.</p>
                         </div>
@@ -87,7 +87,7 @@ const Projects = () => {
                     </div>
                     <hr className="vertical-line-projects"></hr>
                     <div className="project">
-                    <img className="reverse" onClick= {handleClick} src={player}></img>
+                    <img onClick= {handleClick} src={player}></img>
                     <div className="space"></div>
                         <div className="project-description">
                             <h1>Defeat the hostile A.I!</h1>
