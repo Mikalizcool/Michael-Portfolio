@@ -23,9 +23,6 @@ const Projects = () => {
         else if (name=="store"){
             window.open("https://shopping-cart-flame-eight-82.vercel.app/");
         }
-        else if (name=="game"){
-            window.open("https://docs.google.com/presentation/d/1hWKNWeVOB56YKZAb1JyRDCDmiUXUphnRde8sdd1HpC0/edit?usp=drive_link");
-        }
     }
     return (
         <>
@@ -42,7 +39,6 @@ const Projects = () => {
                             <h1>2d Beat 'em up Game</h1>
                             <p>An in progress video game created in Unity using the c# programming language.</p>
                             <p>This game features the ability to change the player's state dynamically, creating an exciting gameplay experience.</p>
-                            <button className="button" onClick={() => (handleClick("game"))}>Check it out</button>
                         </div>
                     </div>
                     <hr className="vertical-line-projects"></hr>
