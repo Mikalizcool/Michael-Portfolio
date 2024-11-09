@@ -11,7 +11,12 @@ import postera from '../assets/poster-a.png'
 import bkcover from '../assets/book_cover.png'
 import seal from '../assets/seal.jpg'
 import cnrwlreport from '../assets/cnrwl_annual_report.jpg'
+import React, { useEffect } from 'react';
 const Graphicdesign = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+    
     const handleClick = (name) => {
         if (name=="report"){
             window.open("https://www.dhs.gov/sites/default/files/2024-03/23_0508_cio_2022-annual-report-review.pdf");
