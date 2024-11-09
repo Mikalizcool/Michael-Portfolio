@@ -42,7 +42,7 @@ const Projects = () => {
                             <h1>2d Beat 'em up Game</h1>
                             <p>An in progress video game created in Unity using the c# programming language.</p>
                             <p>This game features the ability to change the player's state dynamically, creating an exciting gameplay experience.</p>
-                            <button className="button" onClick={() => (handleClick("memorygame"))}>Check it out!</button>
+                            <button className="button" onClick={() => (handleClick("game"))}>Check it out!</button>
                         </div>
                     </div>
                     <hr className="vertical-line-projects"></hr>
@@ -55,6 +55,17 @@ const Projects = () => {
                         </div>
                         <div className="space"></div>
                         <img src={matchingGame}></img>
+                    </div>
+                    <hr className="vertical-line-projects"></hr>
+                    <div className="project">
+                    <img onClick= {handleClick} src={player}></img>
+                    <div className="space"></div>
+                        <div className="project-description">
+                            <h1>Defeat the hostile A.I!</h1>
+                            <p>Can you defeat this A.I in a game of rock paper scissors?</p>
+                            <p>This project involves making a simple game more interesting with animations.</p>
+                            <button className="button" onClick={() => (handleClick("rockpaperscissors"))}>Try it out</button>
+                        </div>
                     </div>
                     <hr className="vertical-line-projects"></hr>
                     <div className="project">
@@ -87,17 +98,6 @@ const Projects = () => {
                             <p>A job application made using React.</p>
                             <p>This project uses user input and state to update a form.</p>
                             <button className="button" onClick={() => (handleClick("cvapplication"))}>Try it out</button>
-                        </div>
-                    </div>
-                    <hr className="vertical-line-projects"></hr>
-                    <div className="project">
-                    <img onClick= {handleClick} src={player}></img>
-                    <div className="space"></div>
-                        <div className="project-description">
-                            <h1>Defeat the hostile A.I!</h1>
-                            <p>Can you defeat this A.I in a game of rock paper scissors?</p>
-                            <p>This project involves making a simple game more interesting with animations.</p>
-                            <button className="button" onClick={() => (handleClick("rockpaperscissors"))}>Try it out</button>
                         </div>
                     </div>
                 </div>
