@@ -69,14 +69,14 @@ const Projects = () => {
                     </div>
                     <hr className="vertical-line-projects"></hr>
                     <div className="project">
-                    <img onClick= {handleClick} src={cartApp}></img>
-                    <div className="space"></div>
                         <div className="project-description">
                             <h1>Online Store</h1>
                             <p>A mock online store with a shopping cart.</p>
                             <p>This project uses react routers, useState, and useEffect in order to display store items from an external API.</p>
                             <button className="button" onClick={() => (handleClick("store"))}>Try it out</button>
                         </div>
+                    <div className="space"></div>
+                        <img onClick= {handleClick} src={cartApp}></img>
                     </div>
                     <hr className="vertical-line-projects"></hr>
                     <div className="project">
