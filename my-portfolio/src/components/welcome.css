@@ -33,16 +33,17 @@
     top: 73px;
     left: 15px;
     margin: 0;
-    color: #5399a5;
+    color: #255b65;
 }
 .welcome-description {
     font-size: 30px;
     margin-top: 10px;
+    margin-left: 10px;
 }
 .bold-description {
     font-weight: bold;
     display: inline;
-    color: #5399a5;
+    color: #255b65;
 }
 .vertical-line {
     border: none;
@@ -55,6 +56,10 @@
     flex-direction: column;
     position: relative;
     right: 250px;
+}
+.body {
+    background-color: rgb(83, 167, 241);
+    border-radius: 50px;
 }
 
 @media screen and (max-width: 1000px) {
