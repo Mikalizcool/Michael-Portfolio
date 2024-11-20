@@ -21,6 +21,7 @@
 .starter {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .welcome-message {
     display: flex;
@@ -58,7 +59,6 @@
     right: 250px;
 }
 .body {
-    background-color: rgb(83, 167, 241);
     border-radius: 50px;
 }
 
