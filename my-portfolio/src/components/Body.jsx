@@ -10,7 +10,7 @@ const Body = () => {
                 <h1 className="h1">Let's work <div className="bold">together.</div></h1>
 
                 <p>From web development to graphic design, to web apps and animation. I help great people and organizations create amazing projects.</p>
-                <p>Organizations such as: <div className="bold">The Department of Homeland Security</div> and <div className="bold">Concern Worldwide.</div></p>
+                <p>Organizations such as: <div className="bold">The Department of Homeland Security</div>, <div className="bold">The CUNY School of Medicine</div> and <div className="bold">Concern Worldwide.</div></p>
                 <div className="links">
                     {/*<a href="/Michael_Damico_Resume.pdf" download="Michael_Damico_Resume.pdf"><button className="button">Download my resume</button></a>*/}
                     <a href="https://github.com/Mikalizcool" target="_blank"><img className="logo" src={github}></img></a>
