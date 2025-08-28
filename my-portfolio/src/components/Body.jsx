@@ -1,4 +1,3 @@
-import '../index.css'
 import './body.css'
 import github from '../assets/github-mark.svg'
 import linkedin from '../assets/linkedin.png'
