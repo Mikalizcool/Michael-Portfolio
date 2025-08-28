@@ -47,14 +47,14 @@ const Projects = () => {
                     </div>
                     <hr className="vertical-line-projects"></hr>
                     <div className="project">
+                        <img src={matchingGame}></img>
+                        <div className="space"></div>
                         <div className="project-description">
                             <h1>Memory Game</h1>
                             <p>A memory game created using React.</p>
                             <p>This project focuses on utilizing state while fetching and using data from an external API.</p>
                             <button className="button" onClick={() => (handleClick("memorygame"))}>Try it out</button>
                         </div>
-                        <div className="space"></div>
-                        <img src={matchingGame}></img>
                     </div>
                     <hr className="vertical-line-projects"></hr>
                     <div className="project">
@@ -69,14 +69,14 @@ const Projects = () => {
                     </div>
                     <hr className="vertical-line-projects"></hr>
                     <div className="project">
+                        <img onClick= {handleClick} src={cartApp}></img>
+                        <div className="space"></div>
                         <div className="project-description">
                             <h1>Online Store</h1>
                             <p>A mock online store with a shopping cart.</p>
                             <p>This project uses react routers, useState, and useEffect in order to display store items from an external API.</p>
                             <button className="button" onClick={() => (handleClick("store"))}>Try it out</button>
                         </div>
-                    <div className="space"></div>
-                        <img onClick= {handleClick} src={cartApp}></img>
                     </div>
                     <hr className="vertical-line-projects"></hr>
                     <div className="project">
@@ -91,14 +91,14 @@ const Projects = () => {
                     </div>
                     <hr className="vertical-line-projects"></hr>
                     <div className="project">
+                        <img onClick= {handleClick} src={cvapp}></img>
+                        <div className="space"></div>
                         <div className="project-description">
                             <h1>CV-Application</h1>
                             <p>A job application made using React.</p>
                             <p>This project uses user input and state to update a form.</p>
                             <button className="button" onClick={() => (handleClick("cvapplication"))}>Try it out</button>
                         </div>
-                    <div className="space"></div>
-                        <img onClick= {handleClick} src={cvapp}></img>
                     </div>
                 </div>
             </div>
