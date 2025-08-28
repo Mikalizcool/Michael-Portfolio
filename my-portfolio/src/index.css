@@ -8,6 +8,10 @@ body {
   font-style: normal;
 }
 
+body, h1, h2, h3, p, span, button, input {
+  font-family: 'Acme', sans-serif;
+}
+
 p {
   font-size: 20px;
 }
