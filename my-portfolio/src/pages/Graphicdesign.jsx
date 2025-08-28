@@ -1,5 +1,4 @@
 import Navbar from '../components/Navbar.jsx'
-import '../index.css'
 import './graphicdesign.css'
 import animation from '../assets/Animation.mp4'
 import storyboard from '../assets/Storyboard.png'
