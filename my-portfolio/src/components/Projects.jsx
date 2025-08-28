@@ -1,4 +1,3 @@
-import '../index.css'
 import './projects.css'
 import game from '../assets/game.gif'
 import matchingGame from '../assets/matching-game.jpg'

@@ -1,4 +1,3 @@
-import '../index.css'
 import './welcome.css'
 import welcomeImage from '../assets/welcome.gif'
 const Welcome = () => {
