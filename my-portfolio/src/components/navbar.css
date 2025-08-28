@@ -18,6 +18,8 @@
     font-weight: 500;
     font-size: 17px;
     cursor: pointer;
+    font-family: 'Acme', sans-serif;
+    color: black;
 }
 .list {
     list-style-type: none;
