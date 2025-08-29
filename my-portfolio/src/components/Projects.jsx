@@ -14,7 +14,7 @@ const Projects = () => {
             window.open("https://mass-effect-companion-app.vercel.app/");
         }
         else if (name=="cvapplication"){
-            window.open("https://cv-application-ebon.vercel.app/");
+            window.open("https://cv-application-gamma-opal.vercel.app/");
         }
         else if (name=="rockpaperscissors"){
             window.open("https://mikalizcool.github.io/Rock-Paper-Scissors/");
