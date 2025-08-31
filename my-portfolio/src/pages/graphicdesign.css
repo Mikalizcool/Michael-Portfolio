@@ -45,6 +45,7 @@
 }
 .work-left {
     width: 50%;
+    max-width:800px;
     display: flex;
     justify-content: flex-start;
     justify-content: center;

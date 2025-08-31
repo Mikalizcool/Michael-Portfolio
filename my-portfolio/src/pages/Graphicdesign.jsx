@@ -46,16 +46,16 @@ const Graphicdesign = () => {
                     <div className="graphic-design-work">
                         <div className="work-container">
                             <div className="work-left">
+                            <video className="video"  controls >
+                                <source src={animation} type="video/mp4"/>
+                            </video>
+                            </div>
+                            <div className="work-right">
                                 <h1 className="work-title">Malawi Animation</h1>
                                 <p className="work-description">A short animation that acts as an introduction to a larger video project informing the public on the struggles of Malawi farmers and the conditions faced by
                                     those who reside in the region.
                                 </p>
                                 <p>Created using Clip Studio Paint and Adobe Premiere Pro.</p>
-                            </div>
-                            <div className="work-right">
-                            <video className="video"  controls >
-                                <source src={animation} type="video/mp4"/>
-                            </video>
                             </div>
                         </div>
 
@@ -73,13 +73,13 @@ const Graphicdesign = () => {
 
                         <div className="work-container">
                             <div className="work-left">
+                                <img src={numbers}></img>
+                            </div>
+                            <div className="work-right">
                                 <h1 className="work-title">By The Numbers</h1>
                                 <p className="work-description"> A fact sheet used to inform potential contributers to Concern Worldwide's cause.
                                 </p>
                                 <p>Created using Adobe Indesign.</p>
-                            </div>
-                            <div className="work-right">
-                                <img src={numbers}></img>
                             </div>
                         </div>
 
@@ -98,13 +98,13 @@ const Graphicdesign = () => {
 
                         <div className="work-container">
                             <div className="work-left">
+                                <img src={seal}></img>
+                            </div>
+                            <div className="work-right">
                                 <h1 className="work-title">IMDE Seal</h1>
                                 <p className="work-description"> The seal I created for the IMDE program of the DHS.
                                 </p>
                                 <p>Created using Adobe Illustrator.</p>
-                            </div>
-                            <div className="work-right">
-                                <img src={seal}></img>
                             </div>
                         </div>
 
@@ -123,14 +123,14 @@ const Graphicdesign = () => {
 
                         <div className="work-container">
                             <div className="work-left">
+                                <img src={review}></img>
+                            </div>
+                            <div className="work-right">
                                 <h1 className="work-title">Year in Review</h1>
                                 <p className="work-description"> The Year in Review for DHS HSIN. Click to view full version hosted on the DHS site.
                                 </p>
                                 <p>Created using Adobe Indesign and Adobe Illustrator.</p>
                                 <button className="work-button" onClick={() => (handleClick("review"))}>Check it out</button>
-                            </div>
-                            <div className="work-right">
-                                <img src={review}></img>
                             </div>
                         </div>
 
@@ -148,13 +148,13 @@ const Graphicdesign = () => {
 
                         <div className="work-container">
                             <div className="work-left">
+                                <img src={postera}></img>
+                            </div>
+                            <div className="work-right">
                                 <h1 className="work-title">Poster Commission</h1>
                                 <p className="work-description"> A poster I created for the popular web show The Angry Joe Show.
                                 </p>
                                 <p>Created using Adobe Photoshop.</p>
-                            </div>
-                            <div className="work-right">
-                                <img src={postera}></img>
                             </div>
                         </div>
 

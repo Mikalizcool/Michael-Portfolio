@@ -35,8 +35,6 @@
     display: flex;
     padding-top: 40px;
     padding-bottom: 40px;
-    align-items: center;
-    text-align: center;
 }
 .space {
     padding: 25px;
@@ -62,6 +60,8 @@
     }
     .project {
         flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
     .project-container img {
         width: 80%;
