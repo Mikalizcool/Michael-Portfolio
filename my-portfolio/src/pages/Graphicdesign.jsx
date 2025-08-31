@@ -40,7 +40,7 @@ const Graphicdesign = () => {
                         <hr className="horizontal-line"></hr>
                         
                     </div>
-                    <p className="design-description">I work with incredible people to create amazing content and products. From working with the <b className="bold"  >Department of Homeland Security</b> to <b className="bold">Concern Worldwide</b>, I've devoted
+                    <p className="design-description">I work with incredible people to create amazing content and products. From working with the <b className="bold"  >Department of Homeland Security</b> to <b className="bold">Concern Worldwide</b> and <b className="bold">The CUNY School of Medicine</b>, I've devoted
                                 many years to making creative and exciting content.
                     </p>
                     <div className="graphic-design-work">
