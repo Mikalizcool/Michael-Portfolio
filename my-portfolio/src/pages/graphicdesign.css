@@ -79,8 +79,18 @@
 }
 .design-description {
     width: 40%;
+    margin-bottom: 50px;
 }
-
+.work-title {
+    color: #5399a5
+}
+p {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.equipment{
+    font-style: italic;
+}
 @media screen and (max-width: 1000px) {
     .graphic-design-container {
         display: flex;

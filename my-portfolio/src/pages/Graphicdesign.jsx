@@ -55,7 +55,7 @@ const Graphicdesign = () => {
                                 <p className="work-description">A short animation that acts as an introduction to a larger video project informing the public on the struggles of Malawi farmers and the conditions faced by
                                     those who reside in the region.
                                 </p>
-                                <p>Created using Clip Studio Paint and Adobe Premiere Pro.</p>
+                                <p className="equipment">Created using Clip Studio Paint and Adobe Premiere Pro.</p>
                             </div>
                         </div>
 
@@ -67,7 +67,7 @@ const Graphicdesign = () => {
                                 <h1 className="work-title">Storyboard</h1>
                                 <p className="work-description"> A storyboard for the Malawi animation. Storyboards are used to plan animation projects from start to finish.
                                 </p>
-                                <p>Created using Adobe Indesign and Adobe Photoshop.</p>
+                                <p className="equipment">Created using Adobe Indesign and Adobe Photoshop.</p>
                             </div>
                         </div>
 
@@ -79,7 +79,7 @@ const Graphicdesign = () => {
                                 <h1 className="work-title">By The Numbers</h1>
                                 <p className="work-description"> A fact sheet used to inform potential contributers to Concern Worldwide's cause.
                                 </p>
-                                <p>Created using Adobe Indesign.</p>
+                                <p className="equipment">Created using Adobe Indesign.</p>
                             </div>
                         </div>
 
@@ -91,7 +91,7 @@ const Graphicdesign = () => {
                                 <h1 className="work-title">Annual Report</h1>
                                 <p className="work-description"> The annual report for Concern Worldwide I helped create. Click to view full version hosted on the Concern Worldwide site.
                                 </p>
-                                <p>Created using Adobe Indesign, Adobe Photoshop and Adobe Illustrator.</p>
+                                <p className="equipment">Created using Adobe Indesign, Adobe Photoshop and Adobe Illustrator.</p>
                                 <button className="work-button" onClick={() => (handleClick("cnrwreport"))}>Check it out</button>
                             </div>
                         </div>
@@ -104,7 +104,7 @@ const Graphicdesign = () => {
                                 <h1 className="work-title">IMDE Seal</h1>
                                 <p className="work-description"> The seal I created for the IMDE program of the DHS.
                                 </p>
-                                <p>Created using Adobe Illustrator.</p>
+                                <p className="equipment">Created using Adobe Illustrator.</p>
                             </div>
                         </div>
 
@@ -116,7 +116,7 @@ const Graphicdesign = () => {
                                 <h1 className="work-title">Annual Report</h1>
                                 <p className="work-description"> The annual report for DHS HSIN. Click to view full version hosted on the DHS site.
                                 </p>
-                                <p>Created using Adobe Indesign, Adobe Photoshop and Adobe Illustrator.</p>
+                                <p className="equipment">Created using Adobe Indesign, Adobe Photoshop and Adobe Illustrator.</p>
                                 <button className="work-button" onClick={() => (handleClick("report"))}>Check it out</button>
                             </div>
                         </div>
@@ -129,7 +129,7 @@ const Graphicdesign = () => {
                                 <h1 className="work-title">Year in Review</h1>
                                 <p className="work-description"> The Year in Review for DHS HSIN. Click to view full version hosted on the DHS site.
                                 </p>
-                                <p>Created using Adobe Indesign and Adobe Illustrator.</p>
+                                <p className="equipment">Created using Adobe Indesign and Adobe Illustrator.</p>
                                 <button className="work-button" onClick={() => (handleClick("review"))}>Check it out</button>
                             </div>
                         </div>
@@ -142,7 +142,7 @@ const Graphicdesign = () => {
                                 <h1 className="work-title">Technical Illustration</h1>
                                 <p className="work-description"> An example of my ability to create technical illustrations.
                                 </p>
-                                <p>Created using Clip Studio Paint.</p>
+                                <p className="equipment">Created using Clip Studio Paint.</p>
                             </div>
                         </div>
 
@@ -154,7 +154,7 @@ const Graphicdesign = () => {
                                 <h1 className="work-title">Poster Commission</h1>
                                 <p className="work-description"> A poster I created for the popular web show The Angry Joe Show.
                                 </p>
-                                <p>Created using Adobe Photoshop.</p>
+                                <p className="equipment">Created using Adobe Photoshop.</p>
                             </div>
                         </div>
 
@@ -166,7 +166,7 @@ const Graphicdesign = () => {
                                 <h1 className="work-title">Book cover</h1>
                                 <p className="work-description"> The cover for the book I wrote. This complicated project helped me learn project management skills.
                                 </p>
-                                <p>Created using Clip Studio Paint.</p>
+                                <p className="equipment">Created using Clip Studio Paint.</p>
                                 <button className="work-button" onClick={() => (handleClick("bkcover"))}>Check it out</button>
                             </div>
                         </div>
