@@ -35,6 +35,8 @@
     display: flex;
     padding-top: 40px;
     padding-bottom: 40px;
+    align-items: center;
+    text-align: center;
 }
 .space {
     padding: 25px;
