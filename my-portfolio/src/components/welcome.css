@@ -1,6 +1,7 @@
 .welcome {
-    font-size: 60px;
+    font-size: 40px;
     margin: 0;
+    text-align:center;
 }
 .header {
     display: flex;
@@ -8,19 +9,19 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    top: 150px;
+    padding-bottom:100px;
+    height:80vh;
 }
 .header img {
     max-width: 100%;
     margin-left: 40px;
     height: auto;
-    width: 40%;
+    width: 80%;
 }
 .starter {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction:column;
+    align-items:center;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -28,6 +29,8 @@
     display: flex;
     flex-direction: column;
     width: 500px;
+    margin-top:10px;
+    color: rgb(59, 59, 59);
 }
 .bold-message {
     
@@ -37,6 +40,7 @@
     font-size: 30px;
     margin-top: 10px;
     margin-left: 10px;
+    text-align:center;
 }
 .bold-description {
     font-weight: bold;

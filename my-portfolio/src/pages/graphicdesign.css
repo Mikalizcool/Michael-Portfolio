@@ -1,6 +1,6 @@
 .graphic-design-title {
     font-size: 50px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 .graphic-design-container {
     background-color: rgb(252, 252, 252);
@@ -8,12 +8,13 @@
 }
 .horizontal-line {
     width: 10vw;
-    margin-top: 0;
+    margin-top: 5px;
     height: 1px;
     border: solid;
     background-color: #5399a5;
     border-color: #5399a5;
     display: inline-block;
+    margin-bottom: 30px;
 }
 .video {
     border-radius: 15px;
@@ -78,8 +79,8 @@
     width: 110px;
 }
 .design-description {
-    width: 40%;
     margin-bottom: 50px;
+    color: rgb(87, 87, 87);
 }
 .work-title {
     color: #5399a5
@@ -90,6 +91,11 @@ p {
 }
 .equipment{
     font-style: italic;
+}
+.welcome-graphic-design{
+    display:flex;
+    justify-content: space-between;
+    font-size:0;
 }
 @media screen and (max-width: 1000px) {
     .graphic-design-container {

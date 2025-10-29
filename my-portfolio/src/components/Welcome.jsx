@@ -5,6 +5,7 @@ const Welcome = () => {
         <>
             <div className="header">
                 <div className="starter">
+                    <img src= {welcomeImage}></img>
                     <div className="welcome-message">
                         <h1 className="welcome">
                             Hi! My name is <span className='bold-message'>Michael.</span>
@@ -13,11 +14,6 @@ const Welcome = () => {
                             I'm a <div className="bold-description">web developer</div> and <div className="bold-description">graphic designer</div> from New York.
                         </div>
                     </div>
-                    <img src= {welcomeImage}></img>
-                </div>
-                <div className="scroll">
-                    <p>SCROLL</p>
-                    <hr className="vertical-line"></hr>
                 </div>
             </div>
         </>

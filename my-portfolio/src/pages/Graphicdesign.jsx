@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar.jsx'
+import ConcernWorldwide from '../components/ConcernWorldwide.jsx'
 import './graphicdesign.css'
 import animation from '../assets/Animation.mp4'
 import storyboard from '../assets/Storyboard.png'
@@ -10,6 +11,7 @@ import postera from '../assets/poster-a.png'
 import bkcover from '../assets/book_cover.png'
 import seal from '../assets/seal.jpg'
 import cnrwlreport from '../assets/cnrwl_annual_report.jpg'
+import welcomeImage from '../assets/welcome.gif'
 import React, { useEffect } from 'react';
 const Graphicdesign = () => {
     useEffect(() => {
@@ -35,14 +37,18 @@ const Graphicdesign = () => {
             <div className="body">
                 <Navbar />
                 <div className="graphic-design-container">
-                    <h1 className="graphic-design-title">My <div className="bold">Graphic Design work.</div></h1>
-                    <div className="line-container">
-                        <hr className="horizontal-line"></hr>
-                        
+                    <div className="welcome-graphic-design">
+                        <div className="title">
+                            <h1 className="graphic-design-title"><div className="bold">Graphic Design</div></h1>
+                            <div className="line-container">
+                                <hr className="horizontal-line"></hr> 
+                            </div>
+                            <p className="design-description">A collection of work I've done for various companies!
+                            </p>
+                        </div>
+                        <img src={welcomeImage} className="welcome-image"></img>
                     </div>
-                    <p className="design-description">I work with incredible people to create amazing content and products. From working with the <b className="bold"  >Department of Homeland Security</b> to <b className="bold">Concern Worldwide</b> and <b className="bold">The CUNY School of Medicine</b>, I've devoted
-                                many years to making creative and exciting content.
-                    </p>
+                    <ConcernWorldwide />
                     <div className="graphic-design-work">
                         <div className="work-container">
                             <div className="work-left">
