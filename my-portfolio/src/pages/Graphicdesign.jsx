@@ -1,4 +1,4 @@
-import Navbar from '../components/Navbar.jsx'
+import NormalNavbar from '../components/NormalNavbar.jsx'
 import ConcernWorldwide from '../components/ConcernWorldwide.jsx'
 import './graphicdesign.css'
 import animation from '../assets/Animation.mp4'
@@ -35,7 +35,7 @@ const Graphicdesign = () => {
     return (
         <>
             <div className="body">
-                <Navbar />
+                <NormalNavbar />
                 <div className="graphic-design-container">
                     <div className="welcome-graphic-design">
                         <div className="title">

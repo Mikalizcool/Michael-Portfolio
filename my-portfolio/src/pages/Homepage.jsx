@@ -3,11 +3,12 @@ import Welcome from '../components/Welcome'
 import Body from '../components/Body'
 import Projects from '../components/Projects'
 import Skills from '../components/Skills'
+import NormalNavbar from '../components/NormalNavbar'
 const Homepage = () => {
     return (
         <>
         <div className="body">
-            <Navbar />
+            <NormalNavbar />
             <Welcome />
         </div>
         <div className="center">
