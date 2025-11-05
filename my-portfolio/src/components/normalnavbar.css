@@ -1,23 +1,34 @@
 /* Basic navbar layout */
 .navbar {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
   color: white;
-  padding: 30px 50px;
+  padding:  10px 30px 30px;
   position: relative;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 /* Logo */
 .nav-logo {
+  margin-bottom: 18px;
   font-size: 1.4rem;
   font-weight: bold;
+  display:flex;
+  justify-content:center;
+}
+
+.navbar img {
+    width: 50%;
 }
 
 /* Links (desktop view) */
 .nav-links {
   display: flex;
   gap: 20px;
+  flex-direction: row;
 }
 
 .nav-links a {
@@ -31,8 +42,13 @@
   text-decoration: underline;
 }
 
+.nav-logo .logo {
+    padding: 0;
+}
 /* Hamburger (hidden on desktop) */
 .hamburger {
+  align-self: flex-end;
+  margin-bottom: 10px;
   display: none;
   flex-direction: column;
   cursor: pointer;
@@ -48,6 +64,22 @@
 
 /* Mobile Styles */
 @media (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-logo {
+    margin-bottom: 0;
+  }
+
+  .hamburger {
+    align-self: auto;
+    margin-bottom: 0;
+    display: flex;
+  }
+
   .nav-links {
     display: none;
     position: absolute;
@@ -66,9 +98,5 @@
 
   .nav-links a {
     color: white;
-  }
-
-  .hamburger {
-    display: flex;
   }
 }

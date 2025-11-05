@@ -1,0 +1,316 @@
+/* Concern Worldwide project page styles */
+.cnrw-page {
+  font-family: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: #222;
+  background: white;
+  border-radius: 10px;
+  padding-bottom: 15vh;
+  padding: 0px 50px 50px 50px;
+}
+
+.cnrw-hero img{
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.cnrw-content{
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 28px;
+  margin: 28px auto 80px;
+  padding: 0 18px;
+  align-items: start;
+}
+
+.cnrw-intro h1{
+  font-size: 2rem;
+  margin: 0 0 12px;
+  color: #1f6f78;
+}
+
+.cnrw-page-title{
+  text-align: center;
+  font-size: 2.4rem;
+  color: #1f6f78;
+  margin: 18px 0 8px;
+  font-weight: bold;
+}
+
+.cnrw-subtitle{
+  text-align: center;
+  color: #555;
+  margin: 0 0 20px;
+  font-size: 1rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Large project overview title - visually prominent and left aligned */
+.cnrw-overview-title{
+  font-size: 5.2rem; /* larger than page title */
+  line-height: 1.05;
+  font-weight: 700;
+  color: #0f4f56;
+  max-width: 1100px; /* align with content width */
+  text-align: left;
+  padding: 0 18px; /* match content padding */
+  font-weight: 400;
+}
+
+@media (max-width: 780px){
+  .cnrw-overview-title{
+    font-size: 2rem;
+    text-align: left;
+    padding: 0 12px;
+  }
+}
+
+/* thin grey line below the project overview title */
+
+/* Full-bleed divider that spans the entire viewport */
+.cnrw-divider{
+  /* Constrained to the page content container: full width up to the content max */
+  width: 100%;
+  height: 3px;
+  background: #e0e0e0;
+  margin: 14px 0 24px;
+  /* align with the title's left padding so the line starts under the heading */
+  margin-left: 18px;
+  border-radius: 2px;
+}
+
+/* Three equal feature/summary cards below overview */
+.cnrw-features{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 8px auto 30px;
+  padding: 0 18px;
+  align-items: stretch; /* make cards equal height */
+}
+.feature-card{
+  background: #fbfbfb;
+  border-radius: 8px;
+  padding: 18px;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.feature-card h3{
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+  color: #0f4f56;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.feature-card p{ margin: 0; color: #333; line-height:1.45 }
+
+@media (max-width: 980px){
+  /* Tablet: show a single column and display only the first (Strategy) card */
+  .cnrw-features{ grid-template-columns: 1fr; }
+  .cnrw-features > .feature-card:nth-child(n+2){
+    display: none;
+  }
+}
+@media (max-width: 560px){
+  .cnrw-features{ grid-template-columns: 1fr; }
+  /* On small screens show only the first (Strategy) card */
+  .cnrw-features > .feature-card:nth-child(n+2){
+    display: none;
+  }
+}
+
+.cnrw-blurb{
+  line-height: 1.5;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.cnrw-details{
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 18px;
+}
+.cnrw-details li{ margin-bottom: 6px; }
+
+.cnrw-actions{ display:flex; gap:12px; flex-wrap:wrap; }
+.button{ padding:10px 14px; border-radius:8px; text-decoration:none; color:#1f6f78; border:1px solid #1f6f78; font-weight:600 }
+.button.primary{ background:#1f6f78; color:#fff; }
+
+.cnrw-gallery{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.cnrw-gallery .thumb img{ width:100%; height:160px; object-fit:cover; display:block; border-radius:6px }
+
+/* Responsive */
+@media (max-width: 980px){
+  .cnrw-content{ grid-template-columns: 1fr; }
+  .cnrw-gallery{ grid-template-columns: repeat(3, 1fr); }
+  .cnrw-gallery .thumb img{ height:120px }
+}
+
+@media (max-width: 520px){
+  .cnrw-gallery{ grid-template-columns: repeat(2, 1fr); }
+  .cnrw-gallery .thumb img{ height:100px }
+  .cnrw-actions{ justify-content:flex-start }
+}
+
+/* Showcase section styles */
+.cnrw-showcase {
+  background: #1f6f78;
+  margin: 60px calc(-50px);
+  padding: 60px 50px;
+  color: white;
+}
+
+.showcase-title {
+  font-size: 2.4rem;
+  color: white;
+  margin: 0 0 20px;
+  text-align: left;
+}
+
+.showcase-divider {
+  width: 120px;
+  height: 3px;
+  background: rgba(255,255,255,0.3);
+  margin: 0 0 40px;
+  border-radius: 2px;
+}
+
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  width: 100%;
+}
+
+.showcase-item {
+  position: relative;
+  cursor: pointer;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.showcase-item:hover {
+  transform: translateY(-4px);
+}
+
+.showcase-item img {
+  width: 100%;
+  height: auto; /* allow height to be determined by aspect ratio */
+  display: block;
+  max-width: 600px; /* limit width while allowing height to grow */
+}
+
+.showcase-caption {
+  position: static; /* no overlay */
+  padding: 0 0 10px 0; /* space below the caption */
+  background: transparent; /* remove gradient shadow */
+  color: #fff;
+  order: -1; /* place caption above the image */
+}
+
+.showcase-caption h3 {
+  margin: 0 0 8px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.showcase-caption p {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.9;
+  color: #fff;
+}
+
+@media (max-width: 980px) {
+  .showcase-grid {
+    grid-template-columns: 1fr;
+  }
+  .showcase-item img {
+    max-width: 100%; /* full width on tablet */
+  }
+  .cnrw-showcase {
+    margin: 40px calc(-30px);
+    padding: 40px 30px;
+  }
+}
+
+@media (max-width: 560px) {
+  .cnrw-showcase {
+    margin: 30px calc(-20px);
+    padding: 30px 20px;
+  }
+  .showcase-title {
+    font-size: 2rem;
+  }
+  /* Add breathing room around images on small screens */
+  .showcase-item img {
+    padding: 12px;
+    border-radius: 12px; /* soften corners since image is inset */
+    background: transparent; /* blue background from section shows through */
+  }
+  .showcase-grid { gap: 20px; }
+}
+
+/* What I Loved About This Project section */
+.cnrw-loved {
+  max-width: 900px;
+  margin: 60px auto 0;
+  padding: 0 50px 80px;
+}
+
+.loved-title {
+  font-size: 2.4rem;
+  color: #1f6f78;
+  margin: 0 0 30px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.loved-content {
+  line-height: 1.7;
+  color: #333;
+}
+
+.loved-content p {
+  margin: 0 0 20px;
+  font-size: 1.05rem;
+}
+
+.loved-content p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 980px) {
+  .cnrw-loved {
+    padding: 0 30px 60px;
+  }
+  .loved-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .cnrw-loved {
+    padding: 0 20px 40px;
+  }
+  .loved-title {
+    font-size: 1.6rem;
+  }
+  .loved-content p {
+    font-size: 1rem;
+  }
+}

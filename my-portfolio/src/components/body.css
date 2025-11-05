@@ -53,4 +53,25 @@
         margin: 0;
         margin-bottom: 30px;
     }
+    /* Center body content on tablet and smaller */
+    .heading {
+        margin: 20px;
+        padding: 20px;
+        align-items: center; /* center children vertically in column layout */
+        text-align: center; /* center text */
+    }
+
+    .h1 {
+        text-align: center;
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        padding-right: 0;
+        margin-bottom: 12px;
+    }
 }

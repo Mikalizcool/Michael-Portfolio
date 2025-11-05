@@ -1,8 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
 * {
-  font-family: "Acme", sans-serif;
+  font-family: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #3b3b3b;
+}
+
+/* Navigation-specific font: keep Acme for nav items only */
+.nav-links a,
+.navbar-button,
+.links a,
+.dropdown-menu a,
+.list a,
+.navbar a,
+.normal-navbar .nav-links a,
+.navbar .links a {
+  font-family: 'Acme', sans-serif;
 }
 
 body {
@@ -11,4 +26,11 @@ body {
 
 p {
   font-size: 20px;
+}
+
+/* Homepage container styling */
+.body {
+  border-radius: 10px;
+  overflow: hidden; /* ensures inner content respects rounded corners */
+  background: #ffffff; /* makes the rounded corners visible against page bg */
 }

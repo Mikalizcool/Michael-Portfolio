@@ -6,15 +6,16 @@ const Body = () => {
     return (
         <>
             <div className="heading">
-                <h1 className="h1">Let's work <div className="bold">together.</div></h1>
+                <h1 className="h1">About <div className="bold">me</div></h1>
 
-                <p>From web development to graphic design, to web apps and animation. I help great people and organizations create amazing projects.</p>
-                <p>Organizations such as: <div className="bold">The Department of Homeland Security</div>, <div className="bold">The CUNY School of Medicine</div> and <div className="bold">Concern Worldwide.</div></p>
+                <p>Hi, my name is Michael. Since I was a kid I've always loved to draw and be creative.</p>
+                <p>My favorite hobbies are drawing, writing, and animating.</p>
+                <p>I enjoy working for companies with good causes.</p>
+                <p>My dream is to make my own video game.</p>
                 <div className="links">
                     {/*<a href="/Michael_Damico_Resume.pdf" download="Michael_Damico_Resume.pdf"><button className="button">Download my resume</button></a>*/}
                     <a href="https://github.com/Mikalizcool" target="_blank"><img className="logo" src={github}></img></a>
                     <a href="https://www.linkedin.com/in/michael-a-damico/" target="_blank"><img className="logo" src={linkedin}></img></a>
-                    <Link to="graphicdesign"><button className="button-a">Graphic Design Work</button></Link>
                 </div>
             </div>
         </>

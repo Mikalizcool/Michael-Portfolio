@@ -1,0 +1,257 @@
+/* Department of Homeland Security project page styles */
+.dhs-page {
+  font-family: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: #222;
+  background: white;
+  border-radius: 10px;
+  padding-bottom: 15vh;
+  padding: 0px 50px 50px 50px;
+}
+
+.dhs-page-title{
+  text-align: center;
+  font-size: 2.4rem;
+  color: #1f6f78;
+  margin: 18px 0 8px;
+  font-weight: bold;
+}
+
+.dhs-subtitle{
+  text-align: center;
+  color: #555;
+  margin: 0 0 20px;
+  font-size: 1rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Large project overview title - visually prominent and left aligned */
+.dhs-overview-title{
+  font-size: 5.2rem;
+  line-height: 1.05;
+  font-weight: 700;
+  color: #0f4f56;
+  max-width: 1100px;
+  text-align: left;
+  padding: 0 18px;
+  font-weight: 400;
+}
+
+@media (max-width: 780px){
+  .dhs-overview-title{
+    font-size: 2rem;
+    text-align: left;
+    padding: 0 12px;
+  }
+}
+
+.dhs-divider{
+  width: 100%;
+  height: 3px;
+  background: #e0e0e0;
+  margin: 14px 0 24px;
+  margin-left: 18px;
+  border-radius: 2px;
+}
+
+/* Three equal feature/summary cards below overview */
+.dhs-features{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 8px auto 30px;
+  padding: 0 18px;
+  align-items: stretch;
+}
+.feature-card{
+  background: #fbfbfb;
+  border-radius: 8px;
+  padding: 18px;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.feature-card h3{
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+  color: #0f4f56;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.feature-card p{ margin: 0; color: #333; line-height:1.45 }
+
+@media (max-width: 980px){
+  .dhs-features{ grid-template-columns: 1fr; }
+  .dhs-features > .feature-card:nth-child(n+2){
+    display: none;
+  }
+}
+@media (max-width: 560px){
+  .dhs-features{ grid-template-columns: 1fr; }
+  .dhs-features > .feature-card:nth-child(n+2){
+    display: none;
+  }
+}
+
+/* Showcase section styles */
+.dhs-showcase {
+  background: #1f6f78;
+  margin: 60px calc(-50px);
+  padding: 60px 50px;
+  color: white;
+}
+
+.showcase-title {
+  font-size: 2.4rem;
+  color: white;
+  margin: 0 0 20px;
+  text-align: left;
+}
+
+.showcase-divider {
+  width: 120px;
+  height: 3px;
+  background: rgba(255,255,255,0.3);
+  margin: 0 0 40px;
+  border-radius: 2px;
+}
+
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  width: 100%;
+}
+
+.showcase-item {
+  position: relative;
+  cursor: pointer;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.showcase-item:hover {
+  transform: translateY(-4px);
+}
+
+.showcase-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 600px;
+}
+
+.showcase-caption {
+  position: static;
+  padding: 0 0 10px 0;
+  background: transparent;
+  color: #fff;
+  order: -1;
+}
+
+.showcase-caption h3 {
+  margin: 0 0 8px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.showcase-caption p {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.9;
+  color: #fff;
+}
+
+@media (max-width: 980px) {
+  .showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  width: 100%;
+}
+  .showcase-item img {
+    max-width: 100%;
+  }
+  .dhs-showcase {
+    margin: 40px calc(-30px);
+    padding: 40px 30px;
+  }
+}
+
+@media (max-width: 560px) {
+  .dhs-showcase {
+    margin: 30px calc(-20px);
+    padding: 30px 20px;
+  }
+  .showcase-title {
+    font-size: 2rem;
+  }
+  .showcase-item img {
+    padding: 12px;
+    border-radius: 12px;
+    background: transparent;
+  }
+  .showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  width: 100%;
+}
+}
+
+/* What I Loved About This Project section */
+.dhs-loved {
+  max-width: 900px;
+  margin: 60px auto 0;
+  padding: 0 50px 80px;
+}
+
+.loved-title {
+  font-size: 2.4rem;
+  color: #1f6f78;
+  margin: 0 0 30px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.loved-content {
+  line-height: 1.7;
+  color: #333;
+}
+
+.loved-content p {
+  margin: 0 0 20px;
+  font-size: 1.05rem;
+}
+
+.loved-content p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 980px) {
+  .dhs-loved {
+    padding: 0 30px 60px;
+  }
+  .loved-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .dhs-loved {
+    padding: 0 20px 40px;
+  }
+  .loved-title {
+    font-size: 1.6rem;
+  }
+  .loved-content p {
+    font-size: 1rem;
+  }
+}
