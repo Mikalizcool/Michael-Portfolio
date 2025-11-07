@@ -26,6 +26,10 @@
     width: 50%;
     height: 50%;
 }
+.project-container button {
+    color: white;
+    border: #5399a5;
+}
 .project-description {
     width: 50%;
 }
