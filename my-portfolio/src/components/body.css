@@ -3,27 +3,118 @@
     text-align: left;
     border: solid white;
     margin: 100px;
-    padding: 50px;
+    padding: 60px;
     border-radius: 10px;
     border-width: 10px;
     background-color: white;
     flex-direction: column;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
 .h1 {
     text-align: left;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    line-height: 1.2;
 }
+
 .bold {
     color: #5399a5;
     font-weight: bold;
-    display: inline;
 }
-.logo {
-    width: 40px;
-    padding-right: 50px;
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
 }
+
+.intro {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #2c3e50;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #34495e;
+    margin: 0;
+}
+
+.interests {
+    background-color: #f8f9fa;
+    padding: 25px;
+    border-radius: 8px;
+    border-left: 4px solid #5399a5;
+}
+
+.interests h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #5399a5;
+    font-size: 1.2rem;
+}
+
+.interests ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+.interests li {
+    padding-left: 24px;
+    position: relative;
+    color: #2c3e50;
+    font-size: 1rem;
+}
+
+.interests li::before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    color: #5399a5;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.vision {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #34495e;
+    font-style: italic;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%);
+    border-radius: 8px;
+}
+
 .links {
     display: flex;
     margin-top: 10px;
+    gap: 20px;
+}
+
+.social-link {
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    opacity: 0.8;
+}
+
+.social-link:hover {
+    transform: translateY(-3px);
+    opacity: 1;
+}
+
+.links .logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
 }
 .button {
     border: none;
@@ -45,33 +136,42 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .links img {
-        padding-left: 0;
-        padding-bottom: 30px;
-    }
-    .links button {
-        margin: 0;
-        margin-bottom: 30px;
-    }
-    /* Center body content on tablet and smaller */
     .heading {
         margin: 20px;
-        padding: 20px;
-        align-items: center; /* center children vertically in column layout */
-        text-align: center; /* center text */
+        padding: 30px;
+        align-items: center;
+        text-align: center;
     }
 
     .h1 {
         text-align: center;
+        font-size: 2rem;
+    }
+
+    .about-content {
+        text-align: left;
+    }
+
+    .intro {
+        font-size: 1.1rem;
+    }
+
+    .description, .vision {
+        font-size: 1rem;
+    }
+
+    .interests ul {
+        grid-template-columns: 1fr;
     }
 
     .links {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
     }
 
     .logo {
-        padding-right: 0;
-        margin-bottom: 12px;
+        width: 36px;
+        height: 36px;
     }
 }
