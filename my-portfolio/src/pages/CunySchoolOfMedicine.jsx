@@ -115,13 +115,19 @@ const CunySchoolOfMedicine = () => {
                 <h2 className="loved-title">What I Loved About This Project</h2>
                 <div className="loved-content">
                     <p>
-                        Working on the CUNY School of Medicine project was an incredibly rewarding experience. I had the opportunity to collaborate with a diverse team of professionals who were all passionate about creating a meaningful impact through our work. The challenge of rebranding an institution with such a rich history pushed me to think creatively and strategically, ultimately leading to a final product that we were all proud of.
+                        My experience working with the DHS helped me get this job. They were very impressed with my
+                        work and I received glowing recommendations from my previous managers. They needed someone
+                        with a diverse skillset and that's what I brought to the table. After several interviews, I
+                        was given the position and had to get fingerprinted, which reminded me of my time with the DHS!
                     </p>
                     <p>
-                        One of the aspects I loved most was the emphasis on user-centered design. We conducted extensive research to understand the needs and preferences of the students and faculty, which informed our design decisions at every stage. This collaborative approach not only resulted in a more effective website but also fostered a sense of ownership and pride among the stakeholders.
+                        Working here has been a very interesting experience. This is definately the most political
+                        job I've ever had where our work is constantly influenced by outside factors. Luckily, the people
+                        I work with are fantastic and make the trip to the office worthwhile. The responsibility and creative
+                        freedom I've been given has allowed me to increase my skillset tremendously.
                     </p>
                     <p>
-                        Overall, this project reinforced my belief in the power of collaboration and empathy in design. By putting ourselves in the shoes of the users, we were able to create a website that truly met their needs and aspirations. I am proud of what we accomplished and excited to see how the CUNY School of Medicine community will benefit from our work.
+                        What I loved most from this project is the people I've met :)
                     </p>
                 </div>
             </section>

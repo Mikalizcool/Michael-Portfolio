@@ -121,20 +121,22 @@ const ConcernWorldwide = () => {
                 <h2 className="loved-title">What I Loved About This Project</h2>
                 <div className="loved-content">
                     <p>
-                        Working on the Concern Worldwide project was an incredibly 
-                        rewarding experience. I loved the opportunity to use design as a tool for social impact, 
-                        helping to communicate the vital work Concern does to end extreme poverty and support 
-                        communities in crisis around the world.
+                        This was the first office job I ever had. Thinking back on it, I was so nervous!    
+                        It was located in a tall office building in Manhattan on one of the top floors.
+                        I had to show my ID to the doorman every day. It was exciting to feel so professional!
+                        The office was so nice it was a great work environment.
                     </p>
                     <p>
-                        The challenge of balancing data-heavy content with compelling visual storytelling pushed 
-                        me to create clear, accessible infographics that honored the gravity of the subject matter 
-                        while remaining engaging for donors and stakeholders. Developing the animation for younger 
-                        audiences allowed me to explore motion graphics in a meaningful context.
+                        This company has such a noble cause that every day I worked there I felt a sense
+                        of pride. I was proud to tell people where I worked and I didn't mind the commute
+                        to the office at all. It was so exciting.
                     </p>
                     <p>
-                        Most importantly, knowing that this work directly supports Concern's mission to reach 
-                        millions of people across 25 countries made every design decision feel purposeful and impactful.
+                        If I had to take one thing away from this project, it would be the way it made me
+                        feel like a true professional and the feeling that my work mattered.
+                    </p>
+                    <p>
+                        
                     </p>
                 </div>
             </section>

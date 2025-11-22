@@ -122,13 +122,20 @@ const HomelandSecurity = () => {
                 <h2 className="loved-title">What I Loved About This Project</h2>
                 <div className="loved-content">
                     <p>
-                        This project provided a unique opportunity to contribute to national security efforts through design and communication. I enjoyed collaborating with diverse teams and stakeholders to create impactful materials that enhanced DHS's outreach and internal communication. The challenge of addressing complex needs while maintaining clarity and engagement was particularly rewarding.
+                        I was scouted by a recruiter for a consulting company randomly and was asked if I was interested
+                        in interviewing for a position. The interview I had for this job was probably the best
+                        interview I've ever had for a job. The interviewer was a fan of the game series Fallout
+                        and we talked about that game for most of the interview. I got the job the next day.
                     </p>
                     <p>
-                        Additionally, seeing the tangible impact of our work in improving communication channels and public engagement was incredibly fulfilling. This experience has deepened my appreciation for the role of design in facilitating important conversations and driving positive change within large organizations.
+                        This position made me feel like a big deal, haha. I was on two communications teams
+                        for two different DHS programs, HSIN and IMDE. I was given so much responsibility and respect
+                        that, for a young professional, was really amazing. I was even given a retention bonus a few months
+                        into the job!
                     </p>
                     <p>
-                        Overall, this project reinforced my belief in the power of design as a tool for advocacy and change-making, particularly in the context of public service.
+                        This project really changed my life. It allowed me to afford to pay off debt, improve my
+                        dental appearance, and gave me the confidence to apply myself.
                     </p>
                 </div>
             </section>
