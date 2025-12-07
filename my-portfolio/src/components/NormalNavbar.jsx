@@ -12,11 +12,13 @@ const NormalNavbar = () => {
     }
   return (
     <nav className="navbar">
-      <div className="nav-logo"><img className="logo" src= {logo}></img></div>
-      <div className="hamburger" onClick={toggleMenu}>
-        <span className={isOpen ? "bar open" : "bar"}></span>
-        <span className={isOpen ? "bar open" : "bar"}></span>
-        <span className={isOpen ? "bar open" : "bar"}></span>
+      <div className="nav-header">
+        <div className="nav-logo"><img className="logo" src= {logo}></img></div>
+        <div className="hamburger" onClick={toggleMenu}>
+          <span className={isOpen ? "bar open" : "bar"}></span>
+          <span className={isOpen ? "bar open" : "bar"}></span>
+          <span className={isOpen ? "bar open" : "bar"}></span>
+        </div>
       </div>
       
       <div className={`nav-links ${isOpen ? "open" : ""}`}>
