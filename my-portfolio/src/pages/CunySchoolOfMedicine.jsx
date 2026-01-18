@@ -6,6 +6,7 @@ import { useState } from 'react';
 import cunyIntranet from '../assets/cuny-intranet.jpg';
 import cunyInternet from '../assets/cuny-internet.jpg';
 import cunyAction from '../assets/callingallsophies.jpg';
+import cunyGab from '../assets/cuny-gab.jpg'
 const CunySchoolOfMedicine = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [photoIndex, setPhotoIndex] = useState(0);
@@ -13,7 +14,8 @@ const CunySchoolOfMedicine = () => {
     const showcaseImages = [
         { src: cunyIntranet, title: "Sharepoint Intranet Site", description: "Intranet site for CUNY School of Medicine", type: "image" },
         { src: cunyInternet, title: "Wordpress Internet Site", description: "Internet site for CUNY School of Medicine", type: "image" },
-        { src: cunyAction, title: "Social Media CTA", description: "Social Media Asset", type: "image" }
+        { src: cunyAction, title: "Social Media CTA", description: "Social Media Asset", type: "image" },
+        { src: cunyGab, title: "Giving Tuesday Page", description: "Fundraising", type: "image" }
     ];
     
     return (
