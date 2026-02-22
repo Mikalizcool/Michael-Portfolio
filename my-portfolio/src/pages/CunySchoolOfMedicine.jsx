@@ -13,9 +13,9 @@ const CunySchoolOfMedicine = () => {
     
     const showcaseImages = [
         { src: cunyIntranet, title: "Sharepoint Intranet Site", description: "Intranet site for CUNY School of Medicine", type: "image" },
-        { src: cunyInternet, title: "Wordpress Internet Site", description: "Internet site for CUNY School of Medicine", type: "image" },
+        { src: cunyInternet, title: "Wordpress Internet Site", description: "Internet site for CUNY School of Medicine", type: "image", link: "https://medicine.cuny.edu/" },
         { src: cunyAction, title: "Social Media CTA", description: "Social Media Asset", type: "image" },
-        { src: cunyGab, title: "Giving Tuesday Page", description: "Fundraising", type: "image" }
+        { src: cunyGab, title: "Giving Tuesday Page", description: "Fundraising", type: "image", link: "https://www.cunytuesday.org/organizations/cuny-school-of-medicine"}
     ];
     
     return (
@@ -79,14 +79,16 @@ const CunySchoolOfMedicine = () => {
                             <div 
                                 className="showcase-image"
                                 onClick={() => {
-                                    if (image.type === 'pdf') {
+                                    if (image.link) {
+                                        window.open(image.link, '_blank');
+                                    } else if (image.type === 'pdf') {
                                         window.open(image.pdfUrl, '_blank');
                                     } else if (image.type !== 'video') {
                                         setPhotoIndex(index);
                                         setIsOpen(true);
                                     }
                                 }}
-                                style={{ cursor: image.type === 'video' ? 'default' : 'pointer' }}
+                                style={{ cursor: image.type === 'video' && !image.link ? 'default' : 'pointer' }}
                             >
                                 {image.type === 'video' ? (
                                     <video 
