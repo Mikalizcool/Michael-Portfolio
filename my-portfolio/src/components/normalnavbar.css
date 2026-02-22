@@ -20,6 +20,12 @@
   justify-content:center;
 }
 
+.nav-logo a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .navbar img {
     width: 50%;
     height: auto;
